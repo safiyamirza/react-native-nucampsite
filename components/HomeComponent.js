@@ -27,6 +27,7 @@ function RenderItem(props) {
         );
     }
     if (item) {
+
         return (
             <Card
                 featuredTitle={item.name}
